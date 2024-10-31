@@ -1,0 +1,86 @@
+body {
+  background-size: cover;
+  background-image: url("images/image1.jfif");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background-color: white;
+  width: 43%;
+  margin-top: 60px;
+  margin-left: 385px;
+  padding-right: 69px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-left: 40px;
+}
+.name-field {
+  width: 20rem;
+  height: 5rem;
+}
+input {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin: 20px;
+}
+.text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 87%;
+  margin: 10px;
+
+
+}
+input[type="text"]div {
+  display: flex;
+  
+}
+h1 {
+  text-align: center;
+  width: 93%;
+  font-size: 25px;
+}
+.fa-user {
+  float: right;
+  margin-right: 50px;
+}
+.fa-envelope {
+  float: right;
+  margin-right: 50px;
+}
+.fa-caret-down {
+  float: right;
+  margin-left :50px;
+}
+.fa-lock {
+  float: right;
+  margin-right: 50px;
+}
+#icone{
+    margin-bottom: -16px;
+    margin-right: 50px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
